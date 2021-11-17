@@ -1,0 +1,46 @@
+<section class="section">
+    <div class="container">
+
+        <div class="card" *ngIf="user">
+            <div class="user-key">
+                <h2>Name</h2>
+                <h4>Username:</h4>
+                <h3>Email: </h3>
+                <div>Address 
+                    <p>Street:</p>
+                    <p>Suite:</p>
+                    <p>City: </p>
+                    <p>Zipcode:}</p>
+                </div>
+                    <p>Phone Number:</p>
+                    <p>Website:</p>
+                    <div>Company 
+                        <p>Company Name:</p>
+                        <p>Catchphrase:</p>
+                        <p>BS:</p>
+                    </div>
+            </div>
+            <div class="user-value">
+                <h2>{{user.name}}</h2>
+                <h4>{{user.username}}</h4>
+                <h3>{{user.email}}</h3>
+                <div><br>
+                    <p>{{user.address.street}}</p>
+                    <p>{{user.address.suite}}</p>
+                    <p>{{user.address.city}}</p>
+                    <p>{{user.address.zipcode}}</p>
+                </div>
+                    <p>{{user.phone}}</p>
+                    <p>{{user.website}}</p>
+                    <div>
+                        <br>
+                        <p>{{user.company.name}}</p>
+                        <p> {{user.company.catchPhrase}}</p>
+                        <p>{{user.company.bs}}</p>
+                    </div>
+            </div>
+        </div>
+        <button class="back" routerLink="/users" mat-raised-button color="primary">Go back</button>
+    </div>
+    
+</section>

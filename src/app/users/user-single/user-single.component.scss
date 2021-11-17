@@ -1,0 +1,31 @@
+
+.container{
+    border: 5px orange solid;
+    width: 700px;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+   padding: 30px;
+   padding-bottom: 50px;
+}
+
+.user-key{
+    width: 350px;
+    margin-left: 150px;
+   
+}
+
+.user-value{
+    width: 350px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 80px;
+}
+
+.back{
+    margin-left: 40%;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+}

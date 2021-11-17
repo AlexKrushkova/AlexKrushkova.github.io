@@ -1,0 +1,12 @@
+<div class="container-grid">
+    <mat-list routerLink="/users/{{user.id}}" *ngFor="let user of users | async" class="user-card" >
+        
+        <mat-list-item class="user-card-singleItem">Name: {{user.name}}</mat-list-item>
+        <mat-list-item class="user-card-singleItem">Company: {{user.company.name}}</mat-list-item>
+        <mat-list-item class="user-card-singleItem">Email: {{user.email}}</mat-list-item>
+        <mat-icon class="user-card-singleItem card-info">info</mat-icon>
+       
+        
+    </mat-list>
+</div>
+

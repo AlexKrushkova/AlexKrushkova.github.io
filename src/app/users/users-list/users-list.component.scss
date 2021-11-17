@@ -1,0 +1,28 @@
+
+.user-card{
+   border: 2px dotted blue;
+   cursor: pointer;
+   background-color: lightgray;
+   width: 800px;
+   margin-left: 550px;
+   margin-top: 20px;
+  
+   
+
+   .singleItem{
+    margin-left: 500px;
+    padding-left: 40%;
+    display: flex;  
+    
+}
+
+
+   mat-icon{ 
+       color: orange;
+       
+   }
+}
+.card-info{
+    margin-left: 90%;
+    margin-bottom: 10px;
+}
